@@ -3,8 +3,7 @@ const request = require(`request`)
 const cheerio = require(`cheerio`)
 const fs = require('fs')
 
-getCode(`Cấp đổi Giấy chứng nhận đủ điều kiện về an ninh, trật tự để làm ngành, nghề đầu tư kinh doanh có điều kiện
-`).then(console.log).catch(console.log)
+getCode(`Cấp đổi Giấy chứng nhận đủ điều kiện về an ninh, trật tự để làm ngành, nghề đầu tư kinh doanh có điều kiện`).then(console.log).catch(console.log)
 
 function getCode(text) {
     return new Promise((resolve, reject) => {
